@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1 (weighted)
+Baseline (RegNetY),65.31%,67.76%,65.31%,64.40%
+ConvNeXt-Tiny,78.21%,80.31%,78.21%,78.29%
+DINOv2,83.17%,83.26%,83.17%,83.02%
+NFNet,79.30%,79.51%,79.30%,79.10%

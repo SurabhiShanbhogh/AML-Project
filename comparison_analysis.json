@@ -1,0 +1,146 @@
+{
+  "summary": [
+    {
+      "Model": "Baseline (RegNetY)",
+      "Accuracy": "65.31%",
+      "Precision": "67.76%",
+      "Recall": "65.31%",
+      "F1 (weighted)": "64.40%"
+    },
+    {
+      "Model": "ConvNeXt-Tiny",
+      "Accuracy": "78.21%",
+      "Precision": "80.31%",
+      "Recall": "78.21%",
+      "F1 (weighted)": "78.29%"
+    },
+    {
+      "Model": "DINOv2",
+      "Accuracy": "83.17%",
+      "Precision": "83.26%",
+      "Recall": "83.17%",
+      "F1 (weighted)": "83.02%"
+    },
+    {
+      "Model": "NFNet",
+      "Accuracy": "79.30%",
+      "Precision": "79.51%",
+      "Recall": "79.30%",
+      "F1 (weighted)": "79.10%"
+    }
+  ],
+  "confused_pairs_by_model": {
+    "Baseline (RegNetY)": [
+      [
+        "bottle-transp",
+        "bottle-blue",
+        23
+      ],
+      [
+        "bottle-oil",
+        "bottle-transp",
+        21
+      ],
+      [
+        "juice-cardboard",
+        "milk-cardboard",
+        20
+      ],
+      [
+        "bottle-transp",
+        "bottle-transp-full",
+        17
+      ],
+      [
+        "bottle-blue",
+        "bottle-blue5l",
+        16
+      ]
+    ],
+    "ConvNeXt-Tiny": [
+      [
+        "bottle-transp",
+        "bottle-oil",
+        18
+      ],
+      [
+        "bottle-transp",
+        "bottle-transp-full",
+        18
+      ],
+      [
+        "bottle-transp",
+        "bottle-blue",
+        16
+      ],
+      [
+        "bottle-transp",
+        "bottle-blue5l",
+        14
+      ],
+      [
+        "juice-cardboard",
+        "milk-cardboard",
+        13
+      ]
+    ],
+    "DINOv2": [
+      [
+        "bottle-transp",
+        "bottle-transp-full",
+        17
+      ],
+      [
+        "bottle-blue",
+        "bottle-transp",
+        10
+      ],
+      [
+        "milk-cardboard",
+        "juice-cardboard",
+        9
+      ],
+      [
+        "bottle-oil",
+        "bottle-transp",
+        9
+      ],
+      [
+        "juice-cardboard",
+        "milk-cardboard",
+        8
+      ]
+    ],
+    "NFNet": [
+      [
+        "bottle-transp",
+        "bottle-transp-full",
+        17
+      ],
+      [
+        "bottle-transp",
+        "bottle-blue",
+        11
+      ],
+      [
+        "juice-cardboard",
+        "milk-cardboard",
+        11
+      ],
+      [
+        "bottle-transp",
+        "bottle-blue5l",
+        10
+      ],
+      [
+        "milk-cardboard",
+        "juice-cardboard",
+        10
+      ]
+    ]
+  },
+  "shared_worst_classes": [
+    "bottle-multicolor",
+    "detergent-white"
+  ]
+}
